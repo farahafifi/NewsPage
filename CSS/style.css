@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.navBar{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    /* position: fixed; */
+    z-index: 999;
+    top: 0;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    
+}
+
+.navLogo{
+    width:8%;
+    height: 100%;
+    cursor: pointer;
+}
+.navLogo img{
+    width: 100%;
+    height: 100%;
+}
+.navLinks{
+    width: 92%;
+}
+.navLinks ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+ul li{
+  cursor: pointer;
+
+}
+
+/* .eg:hover .categories #eg-menu{
+    display: flex;
+    flex-direction: column;
+} */
+
+#eg-menu{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 52px;
+    left: 245px;
+}
+
+
+#it-menu{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 52px;
+    left: 581px;
+    z-index: 9999999999999999999;
+}
+#us-menu{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 52px;
+    right: 478px;
+}
+#jp-menu{
+    width: 100px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 52px;
+    right: 112px;
+}
+
+.categories ul{
+    list-style: none;
+}
+
+.category{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.section1{
+    width: 100%;
+    height: 86vh;
+    background:linear-gradient(0deg, rgb(0 0 0 / 40%), rgb(0 0 0 / 100%)), url('/Images/earth-with-blue-orange-glowing-lights-illustration_1017-32137.avif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.section1 p{
+    font-size: 160px;
+    color: rgb(117, 167, 211);
+    position: relative;
+    text-align: center;
+    top: 34%;
+    z-index: 99;
+}
+
+.section2{
+    width: 100%;
+    /* padding-top: 40px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    justify-items: center;
+    row-gap: 50px;
+
+        /* justify-content: space-evenly;
+    align-items: center; */
+}
+
+.container{
+    width: 80%;
+    height: 350px;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+    box-shadow: 5px 10px #888888;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+
+
+}
+.container img{
+    width: 100%;
+    height: 55%;
+  
+}
+#sourceBtn{
+    height: 40px;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border: 2px solid cornflowerblue;
+    cursor: pointer;
+}
+
+.show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+.hide{
+    display: none;
+
+}
+
+#upBtn{
+    display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 20px;
+}
+#upBtn img{
+    width: 37px;
+    height: 34px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    padding: 3px;
+}
